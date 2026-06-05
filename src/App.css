@@ -1,0 +1,405 @@
+/* ─── Reset & base ─────────────────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans:  'IBM Plex Sans', system-ui, sans-serif;
+
+  --bg:        #F5F0E8;
+  --text:      #1a1a1a;
+  --secondary: #8a8070;
+  --accent:    #2C2C2C;
+  --border:    #D9D3C7;
+
+  --page-max-width: 880px;
+  --page-padding:   56px;
+  --section-gap:    52px;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-weight: 300;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ─── Page wrapper ─────────────────────────────────────────────────────────── */
+.page {
+  max-width: var(--page-max-width);
+  margin: 0 auto;
+  padding: var(--page-padding);
+}
+
+/* ─── Section label ────────────────────────────────────────────────────────── */
+.section-label {
+  font-family: var(--font-sans);
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--secondary);
+  margin-bottom: 18px;
+}
+
+/* ─── Divider ──────────────────────────────────────────────────────────────── */
+.divider {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: var(--section-gap) 0;
+}
+
+/* ─── Header ───────────────────────────────────────────────────────────────── */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  padding-bottom: 4px;
+}
+
+.header-left h1 {
+  font-family: var(--font-serif);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -1px;
+  color: var(--text);
+}
+
+.header-left .job-title {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--secondary);
+  margin-top: 10px;
+  letter-spacing: 0.02em;
+}
+
+.header-right {
+  text-align: right;
+  flex-shrink: 0;
+  padding-top: 6px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 7px;
+  color: var(--secondary);
+  font-size: 12.5px;
+  font-weight: 300;
+  line-height: 1.9;
+  text-decoration: none;
+}
+
+.contact-item:hover {
+  color: var(--text);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.contact-icon {
+  width: 13px;
+  height: 13px;
+  flex-shrink: 0;
+  opacity: 0.5;
+}
+
+/* ─── About ────────────────────────────────────────────────────────────────── */
+.about p {
+  font-size: 14.5px;
+  font-weight: 300;
+  color: var(--secondary);
+  max-width: 660px;
+  line-height: 1.8;
+}
+
+/* ─── Tech Stack ───────────────────────────────────────────────────────────── */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag {
+  background: transparent;
+  color: var(--accent);
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 400;
+  padding: 4px 10px;
+  border-radius: 2px;
+  border: 1px solid var(--accent);
+}
+
+/* ─── Experience ───────────────────────────────────────────────────────────── */
+.experience-entry {
+  margin-bottom: 36px;
+}
+
+.experience-entry:last-child {
+  margin-bottom: 0;
+}
+
+.exp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  margin-bottom: 3px;
+}
+
+.exp-company {
+  font-family: var(--font-serif);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.exp-period {
+  font-size: 12px;
+  font-weight: 300;
+  color: var(--secondary);
+  white-space: nowrap;
+  flex-shrink: 0;
+  letter-spacing: 0.02em;
+}
+
+.exp-role {
+  font-size: 13px;
+  font-weight: 300;
+  color: var(--secondary);
+  margin-bottom: 14px;
+  letter-spacing: 0.01em;
+}
+
+.exp-bullets {
+  list-style: none;
+  padding: 0;
+}
+
+.exp-bullets li {
+  position: relative;
+  padding-left: 18px;
+  font-size: 13.5px;
+  font-weight: 300;
+  color: var(--secondary);
+  margin-bottom: 6px;
+  line-height: 1.65;
+}
+
+.exp-bullets li::before {
+  content: '–';
+  position: absolute;
+  left: 0;
+  color: var(--border);
+}
+
+/* ─── Projects ─────────────────────────────────────────────────────────────── */
+.project-entry {
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--border);
+}
+
+.project-entry:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.project-name-row {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 5px;
+}
+
+.project-name {
+  font-family: var(--font-serif);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.project-link {
+  font-size: 12px;
+  font-weight: 300;
+  color: var(--text);
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+.project-link:hover {
+  opacity: 1;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.project-desc {
+  font-size: 13.5px;
+  font-weight: 300;
+  color: var(--secondary);
+  margin-bottom: 10px;
+  line-height: 1.65;
+}
+
+.project-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.project-tag {
+  font-family: var(--font-sans);
+  font-size: 11.5px;
+  font-weight: 400;
+  color: var(--secondary);
+  background: transparent;
+  border: 1px solid var(--border);
+  padding: 2px 8px;
+  border-radius: 2px;
+}
+
+/* ─── Bottom row (two columns) ─────────────────────────────────────────────── */
+.bottom-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+}
+
+/* ─── Education ────────────────────────────────────────────────────────────── */
+.edu-entry {
+  margin-bottom: 18px;
+}
+
+.edu-institution {
+  font-size: 13.5px;
+  font-weight: 400;
+  color: var(--text);
+  line-height: 1.45;
+}
+
+.edu-degree {
+  font-size: 13px;
+  font-weight: 300;
+  color: var(--secondary);
+}
+
+.edu-period {
+  font-size: 12px;
+  font-weight: 300;
+  color: var(--secondary);
+  opacity: 0.7;
+}
+
+.cert-list {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.cert-list li {
+  font-size: 13px;
+  font-weight: 300;
+  color: var(--secondary);
+  padding: 5px 0;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+}
+
+.cert-year {
+  color: var(--secondary);
+  opacity: 0.6;
+  flex-shrink: 0;
+  margin-left: 8px;
+}
+
+/* ─── Languages & Skills ───────────────────────────────────────────────────── */
+.lang-list {
+  list-style: none;
+  margin-bottom: 24px;
+}
+
+.lang-list li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13.5px;
+  font-weight: 300;
+  padding: 5px 0;
+  border-bottom: 1px solid var(--border);
+  color: var(--secondary);
+}
+
+.lang-name {
+  color: var(--text);
+  font-weight: 400;
+}
+
+.soft-skills {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.soft-skill-item {
+  font-size: 13px;
+  font-weight: 300;
+  color: var(--secondary);
+  padding-left: 14px;
+  position: relative;
+}
+
+.soft-skill-item::before {
+  content: '–';
+  position: absolute;
+  left: 0;
+  color: var(--border);
+}
+
+/* ─── Print styles ─────────────────────────────────────────────────────────── */
+@media print {
+  :root {
+    --bg:        #ffffff;
+    --text:      #000000;
+    --secondary: #555555;
+    --accent:    #1a1a1a;
+    --border:    #cccccc;
+  }
+
+  body {
+    font-size: 12px;
+  }
+
+  .page {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .header-left h1 {
+    font-size: 40px;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .contact-item:hover,
+  .project-link:hover {
+    text-decoration: none;
+  }
+}
+
+@page {
+  margin: 20mm 18mm;
+  size: A4;
+}
