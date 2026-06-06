@@ -5,14 +5,18 @@ export default function Header({ data }) {
     <header className="header">
       <div className="header-left">
         <h1>{name}</h1>
-        <p className="job-title">{title}</p>
+        <p className="job-title" style={{fontWeight: 'bold', fontSize: '20px'}}>{title}</p>
       </div>
       <div className="header-right">
-        <a className="contact-item" href={`mailto:${contact.email}`}>
+        <a 
+          style={{fontSize: '15px'}}
+          className="contact-item" 
+          href={`mailto:${contact.email}`}>
           <EmailIcon />
           {contact.email}
         </a>
         <a
+          style={{fontSize: '15px'}}
           className="contact-item"
           href={`https://${contact.linkedin}`}
           target="_blank"
@@ -22,6 +26,7 @@ export default function Header({ data }) {
           {contact.linkedin}
         </a>
         <a
+          style={{fontSize: '15px'}}
           className="contact-item"
           href={`https://${contact.github}`}
           target="_blank"
@@ -30,7 +35,7 @@ export default function Header({ data }) {
           <GitHubIcon />
           {contact.github}
         </a>
-        <span className="contact-item">
+        <span className="contact-item" style={{fontSize: '15px'}}>
           <LocationIcon />
           {contact.location}
         </span>

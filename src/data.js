@@ -3,9 +3,9 @@ const data = {
   title: "Full-Stack Software Engineer",
   contact: {
     email: "arturosesma18@gmail.com",
-    linkedin: "linkedin.com/in/arturo-sesma",
+    linkedin: "www.linkedin.com/in/arturo-sesma-81388519a",
     github: "github.com/arturo-sesma",
-    location: "Mexico City, MX · Open to Remote",
+    location: "Mexico, MX · Open to Remote",
   },
 
   about:
