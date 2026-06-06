@@ -277,7 +277,14 @@ body {
 }
 
 /* ─── Education ────────────────────────────────────────────────────────────── */
+.edu-entries {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
 .edu-entry {
+  flex: 1;
   margin-bottom: 18px;
 }
 
@@ -377,6 +384,10 @@ body {
 
   .contact-item {
     justify-content: flex-start;
+  }
+
+  .edu-entries {
+    flex-direction: column;
   }
 }
 

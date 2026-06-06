@@ -22,9 +22,15 @@ const data = {
     "TypeScript",
     "JavaScript",
     "React",
+    "Angular",
     "Node.js",
     "Next.js",
+    "Laravel",
+    ".NET",
+    "MySQL",
+    "SQLServer",
     "PostgreSQL",
+    "MongoDB",
     "Redis",
     "Docker",
     "AWS",
@@ -121,9 +127,9 @@ const data = {
 
   education: [
     {
-      institution: "Instituto Tecnológico y de Estudios Superiores de Monterrey",
-      degree: "B.Sc. Computer Science",
-      period: "2014 – 2019",
+      institution: "Universidad Nacional Autónoma de México (UNAM)",
+      degree: "B.Eng. in Telecommunications Engineering",
+      period: "2014 – 2020",
     },
   ],
 
@@ -134,16 +140,17 @@ const data = {
 
   languages: [
     { language: "Spanish", level: "Native" },
-    { language: "English", level: "Fluent (C1)" },
-    { language: "French", level: "Conversational (B1)" },
+    { language: "English", level: "Professional (B2)" },
+    { language: "Japanese", level: "Elementary (A1–A2)" },
   ],
 
   softSkills: [
+    "Cross-cultural collaboration",
     "Async-first communication",
-    "Technical writing",
     "Pragmatic problem-solving",
-    "Mentoring",
-    "Cross-functional collaboration",
+    "Empathy & active listening",
+    "Adaptability",
+    "Team mentoring",
   ],
 };
 

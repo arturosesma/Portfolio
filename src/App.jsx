@@ -18,7 +18,7 @@ export default function App() {
       <hr className="divider" />
       <TechStack data={data} />
       <hr className="divider" />
-      <Projects data={data} />
+      {/* <Projects data={data} /> */}
       <hr className="divider" />
       <div className="bottom-row">
         <Education data={data} />
