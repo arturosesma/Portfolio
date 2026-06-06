@@ -3,8 +3,11 @@ const data = {
   title: "Full-Stack Software Engineer",
   contact: {
     email: "arturosesma18@gmail.com",
+    emailText: "Escríbeme",
     linkedin: "www.linkedin.com/in/arturo-sesma-81388519a",
+    linkedinText: "LinkedIn",
     github: "https://github.com/arturosesma",
+    githubText: "Github",
     location: "Mexico, MX · Open to Remote",
   },
 
@@ -14,7 +17,7 @@ const data = {
     "My engineering background gave me a strong foundation in analytical thinking and problem-solving, " + 
     "which I bring to every line of code. I build scalable web applications, thrive in collaborative environments, " + 
     "and am always looking to learn something new.",
-    
+
   techStack: [
     "TypeScript",
     "JavaScript",

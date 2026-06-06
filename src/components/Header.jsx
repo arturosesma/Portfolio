@@ -9,33 +9,33 @@ export default function Header({ data }) {
       </div>
       <div className="header-right">
         <a 
-          style={{fontSize: '15px'}}
+          style={{fontSize: '18px'}}
           className="contact-item" 
           href={`mailto:${contact.email}`}>
           <EmailIcon />
-          {contact.email}
+          {contact.emailText}
         </a>
         <a
-          style={{fontSize: '15px', fontWeight: '100'}}
+          style={{fontSize: '18px', fontWeight: '100'}}
           className="contact-item"
           href={`https://${contact.linkedin}`}
           target="_blank"
           rel="noopener noreferrer"
         >
           <LinkedInIcon />
-          {contact.linkedin}
+          {contact.linkedinText}
         </a>
         <a
-          style={{fontSize: '15px'}}
+          style={{fontSize: '18px'}}
           className="contact-item"
           href={`https://${contact.github}`}
           target="_blank"
           rel="noopener noreferrer"
         >
           <GitHubIcon />
-          {contact.github}
+          {contact.githubText}
         </a>
-        <span className="contact-item" style={{fontSize: '15px'}}>
+        <span className="contact-item" style={{fontSize: '18px'}}>
           <LocationIcon />
           {contact.location}
         </span>
