@@ -38,15 +38,19 @@ const data = {
 
   experience: [
     {
-      company: "Acme Corp",
-      location: "Remote",
-      role: "Senior Software Engineer",
-      period: "Jan 2022 – Present",
+      company: "ZF Group - ZF Lifetec · Chihuahua, MX",
+      location: "Hybrid",
+      role: "Senior Software Developer & IT Support ",
+      period: "Feb 2023 – Present",
       bullets: [
-        "Led migration of monolithic Rails app to Node.js microservices, reducing p95 latency by 40%.",
-        "Architected a real-time notification system serving 200k+ daily active users using Redis Pub/Sub and WebSockets.",
-        "Mentored 3 junior engineers, conducting weekly code reviews and establishing frontend best-practice guidelines.",
-        "Reduced CI pipeline runtime from 18 min to 6 min by parallelising Jest suites and caching Docker layers.",
+        "Maintained and improved 22+ HR applications across 6 plant locations (Chihuahua, Reynosa, El Salvador, La Laguna, Canada, and Corporate), covering time tracking, payroll processing, vacation management, and workforce analytics",
+        "Delivered performance optimizations of up to 60% on legacy systems through code refactoring and query tuning",
+        "Led migration of a PowerApps solution to open-source stack, saving €21,000/year in licensing costs",
+        "Developed digitalization initiatives replacing paper-based forms, reducing printing costs and manual processes across HR departments",
+        "Built internal tooling with React, Angular, and Python to automate repetitive support tasks, reducing ticket volume",
+        "Wrote and maintained complex SQL Server stored procedures for reporting, inventory, and payroll workflows",
+        "Supported production line applications for shipment tracking and inventory management, including sensitive materials reporting for SEDENA compliance",
+        "Provided network troubleshooting and infrastructure support across multi-site environments",
       ],
     },
     {

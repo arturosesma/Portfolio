@@ -14,9 +14,9 @@ export default function App() {
       <hr className="divider" />
       <About data={data} />
       <hr className="divider" />
-      <TechStack data={data} />
-      <hr className="divider" />
       <Experience data={data} />
+      <hr className="divider" />
+      <TechStack data={data} />
       <hr className="divider" />
       <Projects data={data} />
       <hr className="divider" />

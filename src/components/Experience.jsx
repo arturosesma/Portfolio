@@ -9,7 +9,7 @@ export default function Experience({ data }) {
             <span className="exp-period">{job.period}</span>
           </div>
           <p className="exp-role">{job.role} · {job.location}</p>
-          <ul className="exp-bullets">
+          <ul className="exp-bullets" style={{fontSize: '20px'}}>
             {job.bullets.map((b, i) => (
               <li key={i}>{b}</li>
             ))}
