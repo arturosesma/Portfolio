@@ -43,6 +43,8 @@ const data = {
       role: "Senior Software Developer & IT Support ",
       period: "Feb 2023 – Present",
       bullets: [
+        "Maintained and improved 22+ HR applications across 6 international plant locations, delivering performance optimizations of up to 60% through code refactoring and query tuning",
+        "Migrated a proprietary licensed solution to open-source, saving €21,000/year, while leading digitalization initiatives that eliminated paper-based processes across HR departments"
         // "Maintained and improved 22+ HR applications across 6 plant locations (Chihuahua, Reynosa, El Salvador, La Laguna, Canada, and Corporate), covering time tracking, payroll processing, vacation management, and workforce analytics",
         // "Delivered performance optimizations of up to 60% on legacy systems through code refactoring and query tuning",
         // "Led migration of a PowerApps solution to open-source stack, saving €21,000/year in licensing costs",
@@ -51,8 +53,8 @@ const data = {
         // "Wrote and maintained complex SQL Server stored procedures for reporting, inventory, and payroll workflows",
         // "Supported production line applications for shipment tracking and inventory management, including sensitive materials reporting for compliance",
         // "Provided network troubleshooting and infrastructure support across multi-site environments",
-        "Maintained and improved 22+ HR applications across 6 international plant locations, delivering performance optimizations of up to 60% through code refactoring and SQL Server tuning",
-        "Migrated a PowerApps solution to open-source stack, saving €21,000/year in licensing costs, while leading digitalization initiatives that eliminated paper-based processes across HR departments"
+        // "Maintained and improved 22+ HR applications across 6 international plant locations, delivering performance optimizations of up to 60% through code refactoring and SQL Server tuning",
+        // "Migrated a PowerApps solution to open-source stack, saving €21,000/year in licensing costs, while leading digitalization initiatives that eliminated paper-based processes across HR departments"
       ],
     },
     {
@@ -61,6 +63,8 @@ const data = {
       role: "Junior Full-Stack Developer",
       period: "Mar 2021 – Feb 2023",
       bullets: [
+        "Developed and maintained 25+ client projects simultaneously, handling the full lifecycle from client discovery and requirements gathering to delivery and iteration",
+        "Containerized development environments improving team consistency; deployed and managed all production applications on cloud infrastructure"
         // Worked across 25+ client projects simultaneously, primarily CRM systems, serving clients from diverse industries with varying business logic and requirements
         // Built full-stack applications using React, Angular, Laravel, MySQL, and MongoDB depending on project needs and client constraints
         // Owned the complete project lifecycle end-to-end: client discovery meetings, requirements gathering, process analysis, solution scoping, cost estimation, development, client presentations, iteration, and final delivery
@@ -68,12 +72,29 @@ const data = {
         // Deployed and managed production applications on DigitalOcean
         // Participated in architecture planning sessions before development kickoff, defining stack decisions, database design, and system structure
         // Collaborated directly with clients to translate business processes into technical requirements, often acting as the bridge between business needs and engineering decisions"
-        "Developed and maintained 25+ client projects — primarily CRMs — using React, Angular, Laravel, MySQL, and MongoDB, handling the full lifecycle from client discovery and scoping to delivery",
-        "Containerized development environments with Docker, improving team consistency across projects; deployed production applications on DigitalOcean"
+        // "Developed and maintained 25+ client projects — primarily CRMs — using React, Angular, Laravel, MySQL, and MongoDB, handling the full lifecycle from client discovery and scoping to delivery",
+        // "Containerized development environments with Docker, improving team consistency across projects; deployed production applications on DigitalOcean"
+      ],
+    },
+    {
+      company: "Telmex · CDMX",
+      location: "Remote",
+      role: "Network & Telecommunications Engineer",
+      period: "Feb 2020 – Mar 2021",
+      bullets: [
+        "Implemented and managed enterprise network infrastructure including subnetting, switch configurations, routing tables, redundancy protocols, and firewall ACLs",
+        "Developed automation scripts to eliminate repetitive manual tasks — first exposure to programming that led to a full transition into software engineering"
+        // Designed and implemented IPv4 subnet schemes and summarization for enterprise networks
+        // Configured Layer 2/3 switches including port addressing, VLANs, and inter-VLAN routing
+        // Set up and maintained routing tables and dynamic routing protocols across network infrastructure
+        // Configured redundancy protocols (VRRP/HSRP) for high availability and failover
+        // Implemented ACL rules on firewalls for network security and traffic control
+        // Built Python automation scripts to eliminate repetitive manual network tasks — first exposure to programming that led to a career pivot into software development
+        // "Implemented and managed IPv4 subnetting, switch configurations (port addressing), routing tables, redundancy protocols (VRRP/HSRP), and ACL rules on firewalls across enterprise network infrastructure",
+        // "Developed Python scripts to automate repetitive network tasks, sparking a passion for software development that led to a full transition into software engineering"
       ],
     },
   ],
-
   projects: [
     {
       name: "OpenSearch CLI",
