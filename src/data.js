@@ -4,15 +4,17 @@ const data = {
   contact: {
     email: "arturosesma18@gmail.com",
     linkedin: "www.linkedin.com/in/arturo-sesma-81388519a",
-    github: "github.com/arturo-sesma",
+    github: "https://github.com/arturosesma",
     location: "Mexico, MX · Open to Remote",
   },
 
   about:
-    "Full-stack engineer with 5+ years of experience building scalable web applications for global teams. " +
-    "Comfortable across the entire stack — from designing REST and GraphQL APIs to shipping polished React UIs. " +
-    "I thrive in async, remote-first environments and value clear communication, fast iteration, and pragmatic engineering.",
-
+    "Full-stack developer with 5+ years of experience and a Telecommunications Engineering degree from UNAM." +
+    "I genuinely love what I do — code, math, physics, and the intersection of all three." + 
+    "My engineering background gave me a strong foundation in analytical thinking and problem-solving, " + 
+    "which I bring to every line of code. I build scalable web applications, thrive in collaborative environments, " + 
+    "and am always looking to learn something new.",
+    
   techStack: [
     "TypeScript",
     "JavaScript",

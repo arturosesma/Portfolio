@@ -16,7 +16,7 @@ export default function Header({ data }) {
           {contact.email}
         </a>
         <a
-          style={{fontSize: '15px'}}
+          style={{fontSize: '15px', fontWeight: '100'}}
           className="contact-item"
           href={`https://${contact.linkedin}`}
           target="_blank"
