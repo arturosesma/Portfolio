@@ -12,8 +12,8 @@ const data = {
   },
 
   about:
-    "Full-stack developer with 5+ years of experience and a Telecommunications Engineering degree from UNAM." +
-    "I genuinely love what I do — code, math, physics, and the intersection of all three." + 
+    "Full-stack developer with 5+ years of experience and a Telecommunications Engineering degree from UNAM. " +
+    "I genuinely love what I do — code, math, physics, and the intersection of all three. " +
     "My engineering background gave me a strong foundation in analytical thinking and problem-solving, " + 
     "which I bring to every line of code. I build scalable web applications, thrive in collaborative environments, " + 
     "and am always looking to learn something new.",

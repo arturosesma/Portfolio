@@ -41,7 +41,7 @@ export default function Header({ data }) {
         </span>
         <button
           className="contact-item pdf-download-btn"
-          style={{fontSize: '18px', cursor: 'pointer', background: 'none', border: 'none', padding: 0, color: 'inherit'}}
+          style={{fontSize: '18px', cursor: 'pointer', background: 'none', border: 'none', padding: 0, color: 'inherit', alignItems: 'end'}}
           onClick={() => window.print()}
         >
           <DownloadIcon />
