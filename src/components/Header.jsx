@@ -39,6 +39,14 @@ export default function Header({ data }) {
           <LocationIcon />
           {contact.location}
         </span>
+        <button
+          className="contact-item pdf-download-btn"
+          style={{fontSize: '18px', cursor: 'pointer', background: 'none', border: 'none', padding: 0, color: 'inherit'}}
+          onClick={() => window.print()}
+        >
+          <DownloadIcon />
+          Download PDF
+        </button>
       </div>
     </header>
   )
@@ -75,6 +83,15 @@ function LocationIcon() {
     <svg className="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
       <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" />
       <circle cx="12" cy="9" r="2.5" />
+    </svg>
+  )
+}
+
+function DownloadIcon() {
+  return (
+    <svg className="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
+      <path d="M12 3v13M7 11l5 5 5-5" />
+      <path d="M4 20h16" />
     </svg>
   )
 }

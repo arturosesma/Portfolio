@@ -100,6 +100,16 @@ const data = {
         // "Developed Python scripts to automate repetitive network tasks, sparking a passion for software development that led to a full transition into software engineering"
       ],
     },
+    {
+      company: "Club Familiar Hippo",
+      location: "CDMX",
+      role: "Technical Intern",
+      period: "Nov 2018 – Jan 2020",
+      bullets: [
+        "Coordinated international events (congresses, camps, expos) alongside participants from Brazil, Turkey, China, Lithuania, and other countries — foundational experience working in multicultural environments",
+        "Developed and maintained the organization's static website using HTML, CSS, and JavaScript"
+      ]
+    }
   ],
   projects: [
     {

@@ -392,6 +392,10 @@ body {
 }
 
 @media print {
+  .pdf-download-btn {
+    display: none;
+  }
+
   :root {
     --bg:        #ffffff;
     --text:      #000000;
