@@ -366,6 +366,20 @@ body {
 }
 
 /* ─── Print styles ─────────────────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .header-right {
+    text-align: left;
+  }
+
+  .contact-item {
+    justify-content: flex-start;
+  }
+}
+
 @media print {
   :root {
     --bg:        #ffffff;
