@@ -43,26 +43,33 @@ const data = {
       role: "Senior Software Developer & IT Support ",
       period: "Feb 2023 – Present",
       bullets: [
-        "Maintained and improved 22+ HR applications across 6 plant locations (Chihuahua, Reynosa, El Salvador, La Laguna, Canada, and Corporate), covering time tracking, payroll processing, vacation management, and workforce analytics",
-        "Delivered performance optimizations of up to 60% on legacy systems through code refactoring and query tuning",
-        "Led migration of a PowerApps solution to open-source stack, saving €21,000/year in licensing costs",
-        "Developed digitalization initiatives replacing paper-based forms, reducing printing costs and manual processes across HR departments",
-        "Built internal tooling with React, Angular, and Python to automate repetitive support tasks, reducing ticket volume",
-        "Wrote and maintained complex SQL Server stored procedures for reporting, inventory, and payroll workflows",
-        "Supported production line applications for shipment tracking and inventory management, including sensitive materials reporting for SEDENA compliance",
-        "Provided network troubleshooting and infrastructure support across multi-site environments",
+        // "Maintained and improved 22+ HR applications across 6 plant locations (Chihuahua, Reynosa, El Salvador, La Laguna, Canada, and Corporate), covering time tracking, payroll processing, vacation management, and workforce analytics",
+        // "Delivered performance optimizations of up to 60% on legacy systems through code refactoring and query tuning",
+        // "Led migration of a PowerApps solution to open-source stack, saving €21,000/year in licensing costs",
+        // "Developed digitalization initiatives replacing paper-based forms, reducing printing costs and manual processes across HR departments",
+        // "Built internal tooling with React, Angular, and Python to automate repetitive support tasks, reducing ticket volume",
+        // "Wrote and maintained complex SQL Server stored procedures for reporting, inventory, and payroll workflows",
+        // "Supported production line applications for shipment tracking and inventory management, including sensitive materials reporting for compliance",
+        // "Provided network troubleshooting and infrastructure support across multi-site environments",
+        "Maintained and improved 22+ HR applications across 6 international plant locations, delivering performance optimizations of up to 60% through code refactoring and SQL Server tuning",
+        "Migrated a PowerApps solution to open-source stack, saving €21,000/year in licensing costs, while leading digitalization initiatives that eliminated paper-based processes across HR departments"
       ],
     },
     {
-      company: "Startup XYZ",
-      location: "Mexico City, MX",
-      role: "Software Engineer",
-      period: "Mar 2019 – Dec 2021",
+      company: "Deadline · Chihuahua, MX",
+      location: "Remote ",
+      role: "Junior Full-Stack Developer",
+      period: "Mar 2021 – Feb 2023",
       bullets: [
-        "Built and shipped an internal analytics dashboard (React + D3.js) adopted by the entire operations team.",
-        "Designed PostgreSQL schema for a multi-tenant SaaS platform; wrote migration strategy for zero-downtime deploys.",
-        "Integrated Stripe billing, cutting manual invoicing work by 90%.",
-        "Participated in on-call rotation; reduced MTTR by 30% by improving observability with Datadog APM.",
+        // Worked across 25+ client projects simultaneously, primarily CRM systems, serving clients from diverse industries with varying business logic and requirements
+        // Built full-stack applications using React, Angular, Laravel, MySQL, and MongoDB depending on project needs and client constraints
+        // Owned the complete project lifecycle end-to-end: client discovery meetings, requirements gathering, process analysis, solution scoping, cost estimation, development, client presentations, iteration, and final delivery
+        // Containerized development environments with Docker, standardizing local setup across the team and eliminating environment inconsistencies
+        // Deployed and managed production applications on DigitalOcean
+        // Participated in architecture planning sessions before development kickoff, defining stack decisions, database design, and system structure
+        // Collaborated directly with clients to translate business processes into technical requirements, often acting as the bridge between business needs and engineering decisions"
+        "Developed and maintained 25+ client projects — primarily CRMs — using React, Angular, Laravel, MySQL, and MongoDB, handling the full lifecycle from client discovery and scoping to delivery",
+        "Containerized development environments with Docker, improving team consistency across projects; deployed production applications on DigitalOcean"
       ],
     },
   ],
