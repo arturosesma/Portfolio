@@ -1,6 +1,6 @@
 export default function Education({ data }) {
   return (
-    <section className="education">
+    <section className="education card">
       <p className="section-label">Education &amp; Certifications</p>
 
       <div className="edu-entries">
@@ -8,19 +8,29 @@ export default function Education({ data }) {
           <div key={edu.institution} className="edu-entry">
             <p className="edu-institution">{edu.institution}</p>
             <p className="edu-degree">{edu.degree}</p>
-            <p className="edu-period">{edu.period}</p>
+            {edu.period && <p className="edu-period">{edu.period}</p>}
           </div>
         ))}
       </div>
 
-      <ul className="cert-list">
+      <div className="tags">
         {data.certifications.map((cert) => (
-          <li key={cert.name}>
-            <span>{cert.name}</span>
-            <span className="cert-year">{cert.year}</span>
-          </li>
+          <span key={cert.name} className="tag">{cert.name}</span>
         ))}
-      </ul>
+      </div>
+
+      {data.courses?.length > 0 && (
+        <>
+          <p className="sub-label">Courses</p>
+          <ul className="course-list">
+            {data.courses.map((c) => (
+              <li key={c.platform}>
+                <span className="course-platform">{c.platform}</span> — {c.topics}
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
     </section>
   )
 }

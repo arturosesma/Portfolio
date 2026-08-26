@@ -1,137 +1,134 @@
 const data = {
   name: "Arturo Sesma",
-  title: "Full-Stack Software Engineer",
+  title: "Senior Software Engineer",
   contact: {
     email: "arturosesma18@gmail.com",
-    emailText: "Escríbeme",
+    emailText: "arturosesma18@gmail.com",
+    phone: "+52 614 470 3853",
     linkedin: "www.linkedin.com/in/arturo-sesma-81388519a",
     linkedinText: "LinkedIn",
     github: "https://github.com/arturosesma",
-    githubText: "Github",
-    location: "Mexico, MX · Open to Remote",
+    githubText: "GitHub",
+    location: "Chihuahua, MX · Open to Remote",
   },
 
   about:
-    "Full-stack developer with 5+ years of experience and a Telecommunications Engineering degree from UNAM. " +
-    "I genuinely love what I do — code, math, physics, and the intersection of all three. " +
-    "My engineering background gave me a strong foundation in analytical thinking and problem-solving, " + 
-    "which I bring to every line of code. I build scalable web applications, thrive in collaborative environments, " + 
-    "and am always looking to learn something new.",
+    "Senior Software Engineer with 5+ years of experience designing and delivering scalable full-stack " +
+    "applications across enterprise and commercial environments. Strong background in React, " +
+    "JavaScript/TypeScript, Python, and AWS cloud services, with expertise in software architecture, " +
+    "OOP/functional programming, and modern development best practices. Proven track record modernizing " +
+    "legacy systems, improving performance, and leading end-to-end technical initiatives in distributed teams.",
 
   techStack: [
+    "Python",
     "TypeScript",
-    "JavaScript",
+    "JavaScript (ES6+)",
+    "C#",
     "React",
     "Angular",
+    "HTML5",
+    "CSS3",
     "Node.js",
-    "Next.js",
-    "Laravel",
     ".NET",
+    "Laravel",
+    "REST APIs",
+    "AWS (EC2, Lambda, IAM, API Gateway, S3, Route53, RDS, SNS, SQS)",
+    "SQL Server",
     "MySQL",
-    "SQLServer",
     "PostgreSQL",
     "MongoDB",
-    "Redis",
     "Docker",
-    "AWS",
-    "GraphQL",
-    "REST APIs",
-    "Python",
-    "Git",
+    "Linux",
+    "Git / GitHub / GitLab",
     "CI/CD",
-    "Vite",
+    "SOLID · Clean Architecture · Design Patterns",
   ],
 
   experience: [
     {
-      company: "ZF Group - ZF Lifetec · Chihuahua, MX",
-      location: "Hybrid",
-      role: "Senior Software Developer & IT Support ",
+      company: "ZF Group / ZF-Lifetec",
+      location: "Chihuahua, MX — Hybrid (2x3)",
+      role: "Software Engineer (Full Stack)",
       period: "Feb 2023 – Present",
       bullets: [
-        "Maintained and improved 22+ HR applications across 6 international plant locations, delivering performance optimizations of up to 60% through code refactoring and query tuning",
-        "Migrated a proprietary licensed solution to open-source, saving €21,000/year, while leading digitalization initiatives that eliminated paper-based processes across HR departments"
-        // "Maintained and improved 22+ HR applications across 6 plant locations (Chihuahua, Reynosa, El Salvador, La Laguna, Canada, and Corporate), covering time tracking, payroll processing, vacation management, and workforce analytics",
-        // "Delivered performance optimizations of up to 60% on legacy systems through code refactoring and query tuning",
-        // "Led migration of a PowerApps solution to open-source stack, saving €21,000/year in licensing costs",
-        // "Developed digitalization initiatives replacing paper-based forms, reducing printing costs and manual processes across HR departments",
-        // "Built internal tooling with React, Angular, and Python to automate repetitive support tasks, reducing ticket volume",
-        // "Wrote and maintained complex SQL Server stored procedures for reporting, inventory, and payroll workflows",
-        // "Supported production line applications for shipment tracking and inventory management, including sensitive materials reporting for compliance",
-        // "Provided network troubleshooting and infrastructure support across multi-site environments",
-        // "Maintained and improved 22+ HR applications across 6 international plant locations, delivering performance optimizations of up to 60% through code refactoring and SQL Server tuning",
-        // "Migrated a PowerApps solution to open-source stack, saving €21,000/year in licensing costs, while leading digitalization initiatives that eliminated paper-based processes across HR departments"
+        "Contributed improvements and new features to 50+ enterprise applications used in Mexico, Canada, and El Salvador.",
+        "Implemented secure access controls and data protection practices to ensure confidentiality of sensitive payroll and HR information.",
+        "Led the migration of a PowerApps platform and other legacy apps to existing enterprise infrastructure, generating approximately €25,000 in annual savings by eliminating support incidents and enabling automated user workflows.",
+        "Modernized multiple legacy systems using clean architecture, SOLID principles, and modular design, improving performance by up to 60% and increasing reliability across production environments.",
+        "Built data analysis modules that provided insights into payroll operations, workforce hours, and manufacturing outputs, supporting decision-making across multiple plants.",
       ],
     },
     {
-      company: "Deadline · Chihuahua, MX",
-      location: "Remote ",
-      role: "Junior Full-Stack Developer",
+      company: "Deadline",
+      location: "Remote",
+      role: "Full-Stack Software Developer",
       period: "Mar 2021 – Feb 2023",
       bullets: [
-        "Developed and maintained 25+ client projects simultaneously, handling the full lifecycle from client discovery and requirements gathering to delivery and iteration",
-        "Containerized development environments improving team consistency; deployed and managed all production applications on cloud infrastructure"
-        // Worked across 25+ client projects simultaneously, primarily CRM systems, serving clients from diverse industries with varying business logic and requirements
-        // Built full-stack applications using React, Angular, Laravel, MySQL, and MongoDB depending on project needs and client constraints
-        // Owned the complete project lifecycle end-to-end: client discovery meetings, requirements gathering, process analysis, solution scoping, cost estimation, development, client presentations, iteration, and final delivery
-        // Containerized development environments with Docker, standardizing local setup across the team and eliminating environment inconsistencies
-        // Deployed and managed production applications on DigitalOcean
-        // Participated in architecture planning sessions before development kickoff, defining stack decisions, database design, and system structure
-        // Collaborated directly with clients to translate business processes into technical requirements, often acting as the bridge between business needs and engineering decisions"
-        // "Developed and maintained 25+ client projects — primarily CRMs — using React, Angular, Laravel, MySQL, and MongoDB, handling the full lifecycle from client discovery and scoping to delivery",
-        // "Containerized development environments with Docker, improving team consistency across projects; deployed production applications on DigitalOcean"
+        "Developed scalable backend services using Laravel and RESTful APIs, supporting production systems for commercial clients.",
+        "Developed and maintained responsive frontend applications using React, modern JavaScript/TypeScript, and component-based architecture.",
+        "Designed relational and non-relational database architectures optimized for performance, scalability, and maintainability.",
+        "Containerized applications using Docker, enabling consistent deployment environments and improving CI/CD workflows.",
+        "Participated in the development of commercial software projects valued at $20,000+ USD, contributing directly to product delivery.",
+        "Implemented unit and integration testing practices to improve software reliability and reduce production defects.",
       ],
     },
     {
-      company: "Telmex · CDMX",
+      company: "Telmex (RED UNO)",
       location: "Remote",
-      role: "Network & Telecommunications Engineer",
-      period: "Feb 2020 – Mar 2021",
+      role: "Network Engineer",
+      period: "Apr 2020 – Mar 2021",
       bullets: [
-        "Implemented and managed enterprise network infrastructure including subnetting, switch configurations, routing tables, redundancy protocols, and firewall ACLs",
-        "Developed automation scripts to eliminate repetitive manual tasks — first exposure to programming that led to a full transition into software engineering"
-        // Designed and implemented IPv4 subnet schemes and summarization for enterprise networks
-        // Configured Layer 2/3 switches including port addressing, VLANs, and inter-VLAN routing
-        // Set up and maintained routing tables and dynamic routing protocols across network infrastructure
-        // Configured redundancy protocols (VRRP/HSRP) for high availability and failover
-        // Implemented ACL rules on firewalls for network security and traffic control
-        // Built Python automation scripts to eliminate repetitive manual network tasks — first exposure to programming that led to a career pivot into software development
-        // "Implemented and managed IPv4 subnetting, switch configurations (port addressing), routing tables, redundancy protocols (VRRP/HSRP), and ACL rules on firewalls across enterprise network infrastructure",
-        // "Developed Python scripts to automate repetitive network tasks, sparking a passion for software development that led to a full transition into software engineering"
+        "Configured and secured enterprise networking infrastructure using ACL policies, routing protocols, and network segmentation.",
+        "Implemented high-availability routing and switching architectures using EIGRP, OSPF, VLANs, STP, VRRP, and HSRP.",
+        "Automated networking tasks using Python scripts, improving operational efficiency and reducing manual work — first exposure to programming, which led to a full transition into software engineering.",
       ],
     },
     {
-      company: "Club Familiar Hippo",
-      location: "CDMX",
-      role: "Technical Intern",
-      period: "Nov 2018 – Jan 2020",
+      company: "Lex Institute Japan LTD / LEX México · Club Familiar Hippo",
+      location: "Mexico City · Chihuahua City · Remote",
+      role: "Fellow — Family Entrepreneurial Venture",
+      period: "Jun 2019 – Present",
       bullets: [
-        "Coordinated international events (congresses, camps, expos) alongside participants from Brazil, Turkey, China, Lithuania, and other countries — foundational experience working in multicultural environments",
-        "Developed and maintained the organization's static website using HTML, CSS, and JavaScript"
-      ]
-    }
+        "Led multilingual, multicultural, and multigenerational family groups.",
+        "Collaborated with international, multidisciplinary teams across multiple countries.",
+        "Planned and coordinated international cultural and educational events.",
+        "Registered intellectual property for educational learning materials (INDAutor Mexico).",
+        "Designed and implemented digital media and content marketing strategies.",
+      ],
+    },
+    {
+      company: "PEU CANSAT Project",
+      location: "Mexico City",
+      role: "Engineering Team Lead",
+      period: "Apr 2018 – Oct 2018",
+      bullets: [
+        "Led the development of a pico-satellite prototype integrating a 2.45 GHz antenna and IMUGY-80 sensor module, implementing real-time telemetry acquisition and transmission while the payload was elevated by a drone.",
+        "Oversaw subsystem integration, testing, and team coordination.",
+      ],
+    },
   ],
+
   projects: [
     {
-      name: "OpenSearch CLI",
-      url: "https://github.com/arturo-sesma/opensearch-cli",
+      name: "LaVie Multilingual E-commerce",
+      url: "https://laviemultilingual.com",
       description:
-        "Terminal tool to query and visualise Elasticsearch / OpenSearch indices with fuzzy search and JSON pretty-print.",
-      stack: ["Node.js", "TypeScript", "Commander.js"],
+        "Multilingual e-commerce platform for physical product sales, with Mercado Pago checkout, inventory management, and support for Spanish, English, and Japanese.",
+      stack: ["React", "NestJS", "MySQL", "Docker", "Linux"],
     },
     {
-      name: "Budgetly",
-      url: "https://github.com/arturo-sesma/budgetly",
-      description:
-        "Personal finance tracker with multi-currency support, recurring transactions, and monthly PDF export.",
-      stack: ["Next.js", "PostgreSQL", "Prisma", "Tailwind"],
-    },
-    {
-      name: "LivePoll",
+      name: "Employee's Factory Attendance Controller",
       url: null,
       description:
-        "Real-time polling app built for conference Q&A sessions; handles 1 000+ concurrent voters over WebSockets.",
-      stack: ["React", "Node.js", "Socket.io", "Redis"],
+        "Time and attendance management system for factory employees, with biometric authentication, shift scheduling, and reporting features.",
+      stack: ["React", ".NET", "SQL Server"],
+    },
+    {
+      name: "WSM",
+      url: null,
+      description:
+        "Warehouse management system with real-time inventory tracking, order processing, and reporting features.",
+      stack: ["React", "Node.js", "PostgreSQL"],
     },
   ],
 
@@ -139,28 +136,32 @@ const data = {
     {
       institution: "Universidad Nacional Autónoma de México (UNAM)",
       degree: "B.Eng. in Telecommunications Engineering",
-      period: "2014 – 2020",
+      period: "",
     },
   ],
 
   certifications: [
-    { name: "AWS Certified Developer – Associate", year: "2023" },
-    { name: "Professional Scrum Master I (PSM I)", year: "2021" },
+    { name: "Cisco CCNA — Routing, Switching & Security", year: "" },
+    { name: "AWS Certified Cloud Practitioner", year: "" },
+  ],
+
+  courses: [
+    { platform: "Platzi", topics: "Angular, TypeScript, Docker, Databases, JavaScript" },
+    { platform: "Udemy", topics: "Node.js, AWS (CLF-C02), Git, Laravel, Python, ML basics" },
+    { platform: "Dev.f", topics: "HTML5, CSS3, JavaScript, React" },
   ],
 
   languages: [
     { language: "Spanish", level: "Native" },
-    { language: "English", level: "Professional (B2)" },
-    { language: "Japanese", level: "Elementary (A1–A2)" },
+    { language: "English", level: "Professional" },
+    { language: "Japanese", level: "Elementary" },
   ],
 
   softSkills: [
-    "Cross-cultural collaboration",
-    "Async-first communication",
-    "Pragmatic problem-solving",
-    "Empathy & active listening",
-    "Adaptability",
-    "Team mentoring",
+    "Technical leadership and mentorship for junior developers",
+    "Strong communication in cross-functional and distributed teams",
+    "Ownership mindset and proactive problem solving",
+    "Collaboration in multicultural and international teams",
   ],
 };
 

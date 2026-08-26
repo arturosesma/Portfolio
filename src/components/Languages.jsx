@@ -1,6 +1,6 @@
 export default function Languages({ data }) {
   return (
-    <section className="languages">
+    <section className="languages card">
       <p className="section-label">Languages &amp; Soft Skills</p>
 
       <ul className="lang-list">
@@ -12,11 +12,12 @@ export default function Languages({ data }) {
         ))}
       </ul>
 
-      <div className="soft-skills">
+      <p className="sub-label">Soft Skills</p>
+      <ul className="soft-skills">
         {data.softSkills.map((skill) => (
-          <span key={skill} className="soft-skill-item">{skill}</span>
+          <li key={skill} className="soft-skill-item">{skill}</li>
         ))}
-      </div>
+      </ul>
     </section>
   )
 }

@@ -5,18 +5,24 @@ export default function Header({ data }) {
     <header className="header">
       <div className="header-left">
         <h1>{name}</h1>
-        <p className="job-title" style={{fontWeight: 'bold', fontSize: '20px'}}>{title}</p>
+        <p className="job-title">{title}</p>
+        <button className="pdf-download-btn" onClick={() => window.print()}>
+          <DownloadIcon />
+          Download PDF
+        </button>
       </div>
       <div className="header-right">
-        <a 
-          style={{fontSize: '18px'}}
-          className="contact-item" 
-          href={`mailto:${contact.email}`}>
+        <a className="contact-item" href={`mailto:${contact.email}`}>
           <EmailIcon />
           {contact.emailText}
         </a>
+        {contact.phone && (
+          <span className="contact-item">
+            <PhoneIcon />
+            {contact.phone}
+          </span>
+        )}
         <a
-          style={{fontSize: '18px', fontWeight: '100'}}
           className="contact-item"
           href={`https://${contact.linkedin}`}
           target="_blank"
@@ -26,29 +32,28 @@ export default function Header({ data }) {
           {contact.linkedinText}
         </a>
         <a
-          style={{fontSize: '18px'}}
           className="contact-item"
-          href={`https://${contact.github}`}
+          href={contact.github}
           target="_blank"
           rel="noopener noreferrer"
         >
           <GitHubIcon />
           {contact.githubText}
         </a>
-        <span className="contact-item" style={{fontSize: '18px'}}>
+        <span className="contact-item">
           <LocationIcon />
           {contact.location}
         </span>
-        <button
-          className="contact-item pdf-download-btn"
-          style={{fontSize: '18px', cursor: 'pointer', background: 'none', border: 'none', padding: 0, color: 'inherit', alignItems: 'end'}}
-          onClick={() => window.print()}
-        >
-          <DownloadIcon />
-          Download PDF
-        </button>
       </div>
     </header>
+  )
+}
+
+function PhoneIcon() {
+  return (
+    <svg className="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
+      <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
+    </svg>
   )
 }
 

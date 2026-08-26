@@ -2,29 +2,29 @@ export default function Projects({ data }) {
   return (
     <section className="projects">
       <p className="section-label">Projects</p>
-      {data.projects.map((project) => (
-        <div key={project.name} className="project-entry">
-          <div className="project-name-row">
-            <span className="project-name">{project.name}</span>
+      <div className="project-cards">
+        {data.projects.map((project) => (
+          <article key={project.name} className="card">
+            <h3 className="card-title">{project.name}</h3>
+            <p className="card-desc">{project.description}</p>
             {project.url && (
               <a
-                className="project-link"
+                className="card-link"
                 href={project.url}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                ↗ View
+                View project <span aria-hidden="true">→</span>
               </a>
             )}
-          </div>
-          <p className="project-desc">{project.description}</p>
-          <div className="project-stack">
-            {project.stack.map((tech) => (
-              <span key={tech} className="project-tag">{tech}</span>
-            ))}
-          </div>
-        </div>
-      ))}
+            <div className="card-footer">
+              {project.stack.map((tech) => (
+                <span key={tech} className="tag">{tech}</span>
+              ))}
+            </div>
+          </article>
+        ))}
+      </div>
     </section>
   )
 }
